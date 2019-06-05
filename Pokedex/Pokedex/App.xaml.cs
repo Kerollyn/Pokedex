@@ -30,6 +30,8 @@ namespace Pokedex
         {
             containerRegistry.RegisterForNavigation<NavigationPage>();
             containerRegistry.RegisterForNavigation<MainPage, MainPageViewModel>();
+            containerRegistry.RegisterForNavigation<CriarPokemonPage, CriarPokemonPageViewModel>();
+            containerRegistry.RegisterForNavigation<CriarPokemonPage, CriarPokemonPageViewModel>();
         }
     }
 }
