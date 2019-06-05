@@ -1,0 +1,11 @@
+System.Runtime
+FormsViewGroup
+Prism
+Prism.Forms
+Prism.Unity.Forms
+Unity.Abstractions
+Unity.Container
+Xamarin.Forms.Core
+Xamarin.Forms.Platform.Android
+Xamarin.Forms.Platform
+Xamarin.Forms.Xaml
