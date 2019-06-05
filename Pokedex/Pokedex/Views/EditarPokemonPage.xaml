@@ -1,8 +1,35 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<CarouselPage xmlns="http://xamarin.com/schemas/2014/forms"
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:prism="clr-namespace:Prism.Mvvm;assembly=Prism.Forms"
              prism:ViewModelLocator.AutowireViewModel="True"
              x:Class="Pokedex.Views.EditarPokemonPage">
+    <ContentPage.Content>
+        <StackLayout Padding="15" VerticalOptions="Center">
+            <Label HorizontalTextAlignment="Start"
+                   Text="Número:"/>
+           
+            <Entry Text="{Binding Pokemon.Numero}" 
+                   IsEnabled="False"/>
+            
+            <Label HorizontalTextAlignment="Start" 
+                   Text="Nome: "/>
+            
+            <Entry Text="{Binding Pokemon.Nome}"/>
+            
+            <Label Text="Observações" 
+                   HorizontalTextAlignment="Start"/>
+            
+            <Editor Text="{Binding Pokemon.Observacoes}"/>
+            
+            <Label Text="É primeira fase?"/>
 
-</CarouselPage>
+            <Switch IsToggled="{Binding Pokemon.IsPrimeiraFase}"
+                    HorizontalOptions="Start"
+                    HeightRequest="50"/>
+
+            <Button Text="Salvar!"
+                    Command="{Binding SalvarCommand}"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

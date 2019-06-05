@@ -14,7 +14,7 @@ namespace Pokedex.Views {
     
     
     [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("Views\\EditarPokemonPage.xaml")]
-    public partial class EditarPokemonPage : global::Xamarin.Forms.CarouselPage {
+    public partial class EditarPokemonPage : global::Xamarin.Forms.ContentPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
         private void InitializeComponent() {
