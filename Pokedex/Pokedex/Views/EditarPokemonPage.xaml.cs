@@ -2,7 +2,7 @@
 
 namespace Pokedex.Views
 {
-    public partial class EditarPokemonPage : CarouselPage
+    public partial class EditarPokemonPage : ContentPage
     {
         public EditarPokemonPage()
         {

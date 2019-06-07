@@ -4,6 +4,8 @@ using Pokedex.ViewModels;
 using Pokedex.Views;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
+using Pokedex.Service.Interfaces;
+using Pokedex.Service.Impl;
 
 [assembly: XamlCompilation(XamlCompilationOptions.Compile)]
 namespace Pokedex
@@ -23,15 +25,21 @@ namespace Pokedex
         {
             InitializeComponent();
 
-            await NavigationService.NavigateAsync("NavigationPage/MainPage");
+           // await NavigationService.NavigateAsync("NavigationPage/MainPage");
+            await NavigationService.NavigateAsync("NavigationPage/ListagemPokemonPage");
         }
 
         protected override void RegisterTypes(IContainerRegistry containerRegistry)
         {
+            // Container.RegisterType(typeof(IPokemonService), typeof(InMemoryPokemonService));
+            containerRegistry.Register(typeof(IPokemonService), typeof(InMemoryPokemonService));
+
             containerRegistry.RegisterForNavigation<NavigationPage>();
             containerRegistry.RegisterForNavigation<MainPage, MainPageViewModel>();
             containerRegistry.RegisterForNavigation<CriarPokemonPage, CriarPokemonPageViewModel>();
-            containerRegistry.RegisterForNavigation<CriarPokemonPage, CriarPokemonPageViewModel>();
+            containerRegistry.RegisterForNavigation<DetalhePokemonPage, DetalhePokemonPageViewModel>();
+            containerRegistry.RegisterForNavigation<EditarPokemonPage, EditarPokemonPageViewModel>();
+            containerRegistry.RegisterForNavigation<ListagemPokemonPage, ListagemPokemonPageViewModel>();
         }
     }
 }

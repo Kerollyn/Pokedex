@@ -21,6 +21,7 @@ D:\Projetos\Pokedex\Pokedex\Pokedex.Android\obj\Debug\81\android\assets\Xamarin.
 D:\Projetos\Pokedex\Pokedex\Pokedex.Android\obj\Debug\81\android\assets\Xamarin.Android.Support.Compat.dll
 D:\Projetos\Pokedex\Pokedex\Pokedex.Android\obj\Debug\81\android\assets\Xamarin.Android.Support.Core.UI.dll
 D:\Projetos\Pokedex\Pokedex\Pokedex.Android\obj\Debug\81\android\assets\Xamarin.Android.Support.Core.Utils.dll
+D:\Projetos\Pokedex\Pokedex\Pokedex.Android\obj\Debug\81\android\assets\Xamarin.Android.Support.CustomTabs.dll
 D:\Projetos\Pokedex\Pokedex\Pokedex.Android\obj\Debug\81\android\assets\Xamarin.Android.Support.Design.dll
 D:\Projetos\Pokedex\Pokedex\Pokedex.Android\obj\Debug\81\android\assets\Xamarin.Android.Support.Fragment.dll
 D:\Projetos\Pokedex\Pokedex\Pokedex.Android\obj\Debug\81\android\assets\Xamarin.Android.Support.Media.Compat.dll
