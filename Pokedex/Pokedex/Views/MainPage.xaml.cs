@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Prism.Navigation;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -9,9 +10,18 @@ namespace Pokedex.Views
 {
     public partial class MainPage : ContentPage
     {
-        public MainPage()
+        INavigationService _navigationService;
+
+        public MainPage(INavigationService navigationService)
         {
             InitializeComponent();
+
+            _navigationService = navigationService;
+        }
+
+        private void ImageButton_Clicked(object sender, System.EventArgs e)
+        {
+            _navigationService.NavigateAsync("ListagemPokemonPage");
         }
     }
 }

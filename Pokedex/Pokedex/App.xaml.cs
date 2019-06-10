@@ -25,13 +25,12 @@ namespace Pokedex
         {
             InitializeComponent();
 
-           // await NavigationService.NavigateAsync("NavigationPage/MainPage");
-            await NavigationService.NavigateAsync("NavigationPage/ListagemPokemonPage");
+           await NavigationService.NavigateAsync("NavigationPage/MainPage");
+          
         }
 
         protected override void RegisterTypes(IContainerRegistry containerRegistry)
         {
-            // Container.RegisterType(typeof(IPokemonService), typeof(InMemoryPokemonService));
             containerRegistry.Register(typeof(IPokemonService), typeof(InMemoryPokemonService));
 
             containerRegistry.RegisterForNavigation<NavigationPage>();
@@ -40,6 +39,7 @@ namespace Pokedex
             containerRegistry.RegisterForNavigation<DetalhePokemonPage, DetalhePokemonPageViewModel>();
             containerRegistry.RegisterForNavigation<EditarPokemonPage, EditarPokemonPageViewModel>();
             containerRegistry.RegisterForNavigation<ListagemPokemonPage, ListagemPokemonPageViewModel>();
+            
         }
     }
 }

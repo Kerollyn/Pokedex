@@ -10,7 +10,8 @@
         <Label HorizontalTextAlignment="Start" 
                Text="Número:"/>
         
-        <Entry Text="{Binding Pokemon.Numero}"/>
+        <Entry Text="{Binding Pokemon.Numero}"
+               Keyboard="Numeric"/>
         
         <Label HorizontalTextAlignment="Start" 
                Text="Nome: "/>

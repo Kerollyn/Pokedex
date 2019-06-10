@@ -462,3 +462,4 @@ D:\Projetos\Pokedex\Pokedex\Pokedex.Android\obj\Debug\81\stamp\_CopyPdbFiles.sta
 D:\Projetos\Pokedex\Pokedex\Pokedex.Android\obj\Debug\81\stamp\_GenerateJavaStubs.stamp
 D:\Projetos\Pokedex\Pokedex\Pokedex.Android\obj\Debug\81\stamp\_GeneratePackageManagerJava.stamp
 D:\Projetos\Pokedex\Pokedex\Pokedex.Android\obj\Debug\81\stamp\_ResolveLibraryProjectImports.stamp
+D:\Projetos\Pokedex\Pokedex\Pokedex.Android\obj\Debug\81\res\drawable\pokemon.jpeg
