@@ -11,5 +11,5 @@ D:\Projetos\Pokedex\Pokedex\Pokedex\obj\Debug\netstandard2.0\Pokedex.AssemblyInf
 D:\Projetos\Pokedex\Pokedex\Pokedex\obj\Debug\netstandard2.0\XamlC.stamp
 D:\Projetos\Pokedex\Pokedex\Pokedex\obj\Debug\netstandard2.0\Pokedex.dll
 D:\Projetos\Pokedex\Pokedex\Pokedex\obj\Debug\netstandard2.0\Pokedex.pdb
-D:\Projetos\Pokedex\Pokedex\Pokedex\obj\Debug\netstandard2.0\Views\DetalhePokemonPage.xaml.g.cs
-D:\Projetos\Pokedex\Pokedex\Pokedex\obj\Debug\netstandard2.0\Views\ListagemPokemonPage.xaml.g.cs
+D:\Projetos\Pokedex\Pokedex\Pokedex\obj\Debug\netstandard2.0\Views\DetalhesPokemonPage.xaml.g.cs
+D:\Projetos\Pokedex\Pokedex\Pokedex\obj\Debug\netstandard2.0\Views\ListagemPokemonsPage.xaml.g.cs

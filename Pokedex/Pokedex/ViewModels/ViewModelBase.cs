@@ -10,7 +10,7 @@ namespace Pokedex.ViewModels
     public class ViewModelBase : BindableBase, INavigationAware, IDestructible
     {
         protected INavigationService NavigationService { get; private set; }
-
+     
         private string _title;
         public string Title
         {
@@ -25,7 +25,7 @@ namespace Pokedex.ViewModels
 
         public virtual void OnNavigatedFrom(INavigationParameters parameters)
         {
-
+            
         }
 
         public virtual void OnNavigatedTo(INavigationParameters parameters)

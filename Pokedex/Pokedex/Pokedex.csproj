@@ -10,11 +10,11 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Compile Update="Views\DetalhePokemonPage.xaml.cs">
-      <DependentUpon>DetalhePokemonPage.xaml</DependentUpon>
+    <Compile Update="Views\DetalhesPokemonPage.xaml.cs">
+      <DependentUpon>DetalhesPokemonPage.xaml</DependentUpon>
     </Compile>
-    <Compile Update="Views\ListagemPokemonPage.xaml.cs">
-      <DependentUpon>ListagemPokemonPage.xaml</DependentUpon>
+    <Compile Update="Views\ListagemPokemonsPage.xaml.cs">
+      <DependentUpon>ListagemPokemonsPage.xaml</DependentUpon>
     </Compile>
   </ItemGroup>
 
@@ -22,13 +22,13 @@
     <EmbeddedResource Update="Views\CriarPokemonPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="Views\DetalhePokemonPage.xaml">
+    <EmbeddedResource Update="Views\DetalhesPokemonPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="Views\EditarPokemonPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="Views\ListagemPokemonPage.xaml">
+    <EmbeddedResource Update="Views\ListagemPokemonsPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
   </ItemGroup>

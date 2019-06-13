@@ -5,7 +5,8 @@
   <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
   <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
   <application android:label="Pokedex.Android" android:icon="@mipmap/ic_launcher" android:name="android.app.Application" android:allowBackup="true" android:debuggable="true">
-    <activity android:configChanges="orientation|screenSize" android:icon="@mipmap/ic_launcher" android:label="Pokedex" android:theme="@style/MainTheme" android:name="md5ec8d77c7141f34e23435756a9da602b9.MainActivity">
+    <activity android:configChanges="orientation|screenSize" android:icon="@mipmap/ic_launcher" android:label="Pokedex" android:theme="@style/MainTheme" android:name="md5ec8d77c7141f34e23435756a9da602b9.MainActivity" />
+    <activity android:noHistory="true" android:theme="@style/MyTheme.Splash" android:name="md5ec8d77c7141f34e23435756a9da602b9.SplashActivity">
       <intent-filter>
         <action android:name="android.intent.action.MAIN" />
         <category android:name="android.intent.category.LAUNCHER" />

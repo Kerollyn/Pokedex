@@ -18,8 +18,12 @@ android.support.v7.widget.RecyclerView;D:\Projetos\Pokedex\Pokedex\Pokedex.Andro
 android.support.v7.widget.Toolbar;D:\Projetos\Pokedex\Pokedex\Pokedex.Android\obj\Debug\81\lp\29\jl\res\layout\rootlayout.xml
 android.support.v7.widget.Toolbar;D:\Projetos\Pokedex\Pokedex\Pokedex.Android\obj\Debug\81\lp\29\jl\res\layout\shellcontent.xml
 android.support.v7.widget.Toolbar;obj\Debug\81\res\layout\toolbar.xml
+bitmap;obj\Debug\81\res\drawable\splash_screen.xml
+color;obj\Debug\81\res\drawable\splash_screen.xml
 FrameLayout;D:\Projetos\Pokedex\Pokedex\Pokedex.Android\obj\Debug\81\lp\29\jl\res\layout\bottomtablayout.xml
+item;obj\Debug\81\res\drawable\splash_screen.xml
 item;obj\Debug\81\res\values\styles.xml
+layer-list;obj\Debug\81\res\drawable\splash_screen.xml
 LinearLayout;D:\Projetos\Pokedex\Pokedex\Pokedex.Android\obj\Debug\81\lp\29\jl\res\layout\bottomtablayout.xml
 resources;obj\Debug\81\res\values\styles.xml
 set;D:\Projetos\Pokedex\Pokedex\Pokedex.Android\obj\Debug\81\lp\29\jl\res\anim\enterfromleft.xml

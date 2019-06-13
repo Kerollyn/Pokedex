@@ -3,8 +3,6 @@ using Prism.Commands;
 using Prism.Mvvm;
 using Prism.Navigation;
 using System;
-using System.Collections.Generic;
-using System.Linq;
 
 namespace Pokedex.ViewModels
 {
@@ -12,6 +10,7 @@ namespace Pokedex.ViewModels
     {
         private INavigationService _navigationService;
         private IPokemonService _pokemonService;
+        
 
         private PokemonViewModel _pokemon;
         public PokemonViewModel Pokemon

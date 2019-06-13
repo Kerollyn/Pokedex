@@ -1,12 +1,13 @@
 ﻿using Android.App;
 using Android.Content.PM;
 using Android.OS;
+using Android.Support.V7.App;
 using Prism;
 using Prism.Ioc;
 
 namespace Pokedex.Droid
 {
-    [Activity(Label = "Pokedex", Icon = "@mipmap/ic_launcher", Theme = "@style/MainTheme", MainLauncher = true, ConfigurationChanges = ConfigChanges.ScreenSize | ConfigChanges.Orientation)]
+    [Activity(Label = "Pokedex", Icon = "@mipmap/ic_launcher", Theme = "@style/MainTheme", MainLauncher = false, ConfigurationChanges = ConfigChanges.ScreenSize | ConfigChanges.Orientation)]
     public class MainActivity : global::Xamarin.Forms.Platform.Android.FormsAppCompatActivity
     {
         protected override void OnCreate(Bundle bundle)
@@ -20,6 +21,8 @@ namespace Pokedex.Droid
             LoadApplication(new App(new AndroidInitializer()));
         }
     }
+
+
 
     public class AndroidInitializer : IPlatformInitializer
     {
