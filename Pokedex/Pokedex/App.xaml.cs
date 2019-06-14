@@ -6,6 +6,7 @@ using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 using Pokedex.Service.Interfaces;
 using Pokedex.Service.Impl;
+using HelloWorldPrism.ViewModels;
 
 [assembly: XamlCompilation(XamlCompilationOptions.Compile)]
 namespace Pokedex
@@ -36,7 +37,7 @@ namespace Pokedex
             containerRegistry.RegisterForNavigation<NavigationPage>();
             containerRegistry.RegisterForNavigation<MainPage, MainPageViewModel>();
             containerRegistry.RegisterForNavigation<CriarPokemonPage, CriarPokemonPageViewModel>();
-            containerRegistry.RegisterForNavigation<DetalhePokemonPage, DetalhesPokemonPageViewModel>();
+            containerRegistry.RegisterForNavigation<DetalhesPokemonPage, DetalhesPokemonPageViewModel>();
             containerRegistry.RegisterForNavigation<EditarPokemonPage, EditarPokemonPageViewModel>();
             containerRegistry.RegisterForNavigation<ListagemPokemonsPage, ListagemPokemonsPageViewModel>();
             

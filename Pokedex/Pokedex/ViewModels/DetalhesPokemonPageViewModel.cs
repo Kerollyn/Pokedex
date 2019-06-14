@@ -6,7 +6,7 @@ using System.Linq;
 
 namespace Pokedex.ViewModels
 {
-    public class DetalhesPokemonPageViewModel : BindableBase, INavigationAware
+    public class DetalhesPokemonPageViewModel : BindableBase/*, INavigationAware*/
     {
         private PokemonViewModel _pokemon;
         public PokemonViewModel Pokemon
@@ -34,21 +34,6 @@ namespace Pokedex.ViewModels
         public void OnNavigatingTo(NavigationParameters parameters)
         {
 
-        }
-
-        public void OnNavigatedFrom(INavigationParameters parameters)
-        {
-            throw new NotImplementedException();
-        }
-
-        public void OnNavigatedTo(INavigationParameters parameters)
-        {
-            throw new NotImplementedException();
-        }
-
-        public void OnNavigatingTo(INavigationParameters parameters)
-        {
-            throw new NotImplementedException();
         }
     }
 }

@@ -2,9 +2,9 @@
 
 namespace Pokedex.Views
 {
-    public partial class DetalhePokemonPage : ContentPage
+    public partial class DetalhesPokemonPage : ContentPage
     {
-        public DetalhePokemonPage()
+        public DetalhesPokemonPage()
         {
             InitializeComponent();
         }

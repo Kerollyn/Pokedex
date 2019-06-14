@@ -1,4 +1,6 @@
 ﻿using Pokedex.Service.Interfaces;
+using Pokedex.ViewModels;
+
 using Prism.Commands;
 using Prism.Mvvm;
 using Prism.Navigation;
@@ -8,9 +10,9 @@ using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.Linq;
 
-namespace Pokedex.ViewModels
+namespace HelloWorldPrism.ViewModels
 {
-    public class ListagemPokemonsPageViewModel : BindableBase ,IConfirmNavigation
+    public class ListagemPokemonsPageViewModel : BindableBase, IConfirmNavigation
     {
         private IPokemonService _pokemonService;
         private INavigationService _navigationService;
@@ -45,9 +47,10 @@ namespace Pokedex.ViewModels
                         NavigationParameters parameters = new NavigationParameters();
                         parameters.Add("pokemon", pokemon);
                         parameters.Add("isEdicao", true);
-                        parameters.Add("nomePokemon", pokemon.Nome);
+                        //parameters.Add("nomePokemon", pokemon.Nome);
                         _navigationService.NavigateAsync("EditarPokemonPage?nomePokemon=" + pokemon.Nome, parameters);
                     });
+
                     IActionSheetButton excluirPokemonButton = ActionSheetButton.CreateDestroyButton("Excluir", async () =>
                     {
                         bool confirmarExclusao = await _pageDialogService.DisplayAlertAsync("Confirmação", $"Deseja realmente excluir o pokémon {pokemon.Nome}?", "Sim", "Não");
@@ -56,12 +59,14 @@ namespace Pokedex.ViewModels
                             _pokemonService.Excluir(pokemon);
                         }
                     });
-                    IActionSheetButton detalharPokemonButton = ActionSheetButton.CreateButton("Detalhes", () =>
+
+                    IActionSheetButton detalharPokemonButton = ActionSheetButton.CreateButton("Detalhar", () =>
                     {
                         NavigationParameters parameters = new NavigationParameters();
                         parameters.Add("pokemon", pokemon);
                         _navigationService.NavigateAsync("DetalhesPokemonPage", parameters);
                     });
+
                     IActionSheetButton cancelarButton = ActionSheetButton.CreateCancelButton("Cancelar", () =>
                     {
 
@@ -81,6 +86,21 @@ namespace Pokedex.ViewModels
             _pageDialogService = pageDialogService;
             Pokemons = _pokemonService.Todos();
         }
+
+        //public bool CanNavigate(NavigationParameters parameters)
+        //{
+        //    bool isEdicao = parameters["isEdicao"] != null;
+        //    PokemonViewModel pokemon = parameters["pokemon"] as PokemonViewModel;
+        //    if (isEdicao)
+        //    {
+        //        if (pokemon.IsPrimeiraFase)
+        //        {
+        //            _pageDialogService.DisplayAlertAsync("Cuidado!", "Pokemóns de primeira fase não podem ser editados.", "OK");
+        //        }
+        //        return !pokemon.IsPrimeiraFase;
+        //    }
+        //    return true;
+        //}
 
         public bool CanNavigate(INavigationParameters parameters)
         {

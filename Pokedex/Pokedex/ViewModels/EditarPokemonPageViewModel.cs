@@ -6,7 +6,7 @@ using System;
 
 namespace Pokedex.ViewModels
 {
-    public class EditarPokemonPageViewModel : BindableBase, INavigationAware
+    public class EditarPokemonPageViewModel : BindableBase /*,INavigationAware*/
     {
         private INavigationService _navigationService;
         private IPokemonService _pokemonService;
@@ -44,18 +44,18 @@ namespace Pokedex.ViewModels
             _pokemonService = pokemonService;
         }
 
-        public void OnNavigatedFrom(INavigationParameters parameters)
+        public void OnNavigatedFrom(NavigationParameters parameters)
         {
             throw new NotImplementedException();
         }
 
-        public void OnNavigatedTo(INavigationParameters parameters)
+        public void OnNavigatedTo(NavigationParameters parameters)
         {
             Pokemon = parameters["pokemon"] as PokemonViewModel;
             NomePokemon = parameters["nomePokemon"].ToString();
         }
 
-        public void OnNavigatingTo(INavigationParameters parameters)
+        public void OnNavigatingTo(NavigationParameters parameters)
         {
             throw new NotImplementedException();
         }
