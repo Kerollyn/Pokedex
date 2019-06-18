@@ -5,27 +5,26 @@
              prism:ViewModelLocator.AutowireViewModel="True"
              x:Class="Pokedex.Views.DetalhesPokemonPage"
              Title="{Binding Pokemon.Nome}">
-    
+
     <ContentPage.Content>
-        <StackLayout Padding="15" 
-                     VerticalOptions="Center">
-            
-            <Label HorizontalTextAlignment="Start"
+        <StackLayout Padding="15" VerticalOptions="Center">
+
+            <Label HorizontalTextAlignment="Start" 
                    Text="Número:"/>
 
-            <Entry Text="{Binding Pokemon.Numero}"
+            <Entry Text="{Binding Pokemon.Numero}" 
                    IsEnabled="False"/>
 
-            <Label HorizontalTextAlignment="Start"
+            <Label HorizontalTextAlignment="Start" 
                    Text="Nome: "/>
 
             <Entry Text="{Binding Pokemon.Nome}" 
                    IsEnabled="False"/>
 
-            <Label Text="Observações" 
+            <Label Text="Observações"
                    HorizontalTextAlignment="Start"/>
 
-            <Editor Text="{Binding Pokemon.Observacoes}" 
+            <Editor Text="{Binding Pokemon.Observacoes}"
                     IsEnabled="False"/>
 
             <Label Text="É primeira fase?"/>

@@ -5,18 +5,34 @@
              prism:ViewModelLocator.AutowireViewModel="True"
              x:Class="Pokedex.Views.EditarPokemonPage"
              Title="{Binding NomePokemon}">
-    
+
     <ContentPage.Content>
         <StackLayout Padding="15" VerticalOptions="Center">
-            <Label HorizontalTextAlignment="Start" Text="Número:"></Label>
-            <Entry Text="{Binding Pokemon.Numero}" IsEnabled="False"></Entry>
-            <Label HorizontalTextAlignment="Start" Text="Nome: "></Label>
-            <Entry Text="{Binding Pokemon.Nome}"></Entry>
-            <Label Text="Observações" HorizontalTextAlignment="Start"></Label>
-            <Editor Text="{Binding Pokemon.Observacoes}"></Editor>
-            <Label Text="É primeira fase?"></Label>
-            <Switch IsToggled="{Binding Pokemon.IsPrimeiraFase}" HorizontalOptions="Start" HeightRequest="50"></Switch>
-            <Button Text="Salvar!" Command="{Binding SalvarCommand}"></Button>
+
+            <Label HorizontalTextAlignment="Start"
+                   Text="Número:"/>
+
+            <Entry Text="{Binding Pokemon.Numero}" 
+                   IsEnabled="False"/>
+
+            <Label HorizontalTextAlignment="Start" 
+                   Text="Nome: "/>
+
+            <Entry Text="{Binding Pokemon.Nome}"/>
+
+            <Label Text="Observações"
+                   HorizontalTextAlignment="Start"/>
+
+            <Editor Text="{Binding Pokemon.Observacoes}"/>
+
+            <Label Text="É primeira fase?"/>
+
+            <Switch IsToggled="{Binding Pokemon.IsPrimeiraFase}" 
+                    HorizontalOptions="Start"
+                    HeightRequest="50"/>
+
+            <Button Text="Salvar!" 
+                    Command="{Binding SalvarCommand}"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

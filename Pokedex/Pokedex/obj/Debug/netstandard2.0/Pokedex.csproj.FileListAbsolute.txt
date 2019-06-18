@@ -1,0 +1,16 @@
+D:\Projetos\Pokedex\Pokedex\Pokedex\bin\Debug\netstandard2.0\Pokedex.deps.json
+D:\Projetos\Pokedex\Pokedex\Pokedex\bin\Debug\netstandard2.0\Pokedex.dll
+D:\Projetos\Pokedex\Pokedex\Pokedex\bin\Debug\netstandard2.0\Pokedex.pdb
+D:\Projetos\Pokedex\Pokedex\Pokedex\obj\Debug\netstandard2.0\Pokedex.csprojAssemblyReference.cache
+D:\Projetos\Pokedex\Pokedex\Pokedex\obj\Debug\netstandard2.0\App.xaml.g.cs
+D:\Projetos\Pokedex\Pokedex\Pokedex\obj\Debug\netstandard2.0\Views\CriarPokemonPage.xaml.g.cs
+D:\Projetos\Pokedex\Pokedex\Pokedex\obj\Debug\netstandard2.0\Views\DetalhesPokemonPage.xaml.g.cs
+D:\Projetos\Pokedex\Pokedex\Pokedex\obj\Debug\netstandard2.0\Views\EditarPokemonPage.xaml.g.cs
+D:\Projetos\Pokedex\Pokedex\Pokedex\obj\Debug\netstandard2.0\Views\ListagemPokemonsPage.xaml.g.cs
+D:\Projetos\Pokedex\Pokedex\Pokedex\obj\Debug\netstandard2.0\Views\MainPage.xaml.g.cs
+D:\Projetos\Pokedex\Pokedex\Pokedex\obj\Debug\netstandard2.0\Pokedex.csproj.CoreCompileInputs.cache
+D:\Projetos\Pokedex\Pokedex\Pokedex\obj\Debug\netstandard2.0\Pokedex.AssemblyInfoInputs.cache
+D:\Projetos\Pokedex\Pokedex\Pokedex\obj\Debug\netstandard2.0\Pokedex.AssemblyInfo.cs
+D:\Projetos\Pokedex\Pokedex\Pokedex\obj\Debug\netstandard2.0\XamlC.stamp
+D:\Projetos\Pokedex\Pokedex\Pokedex\obj\Debug\netstandard2.0\Pokedex.dll
+D:\Projetos\Pokedex\Pokedex\Pokedex\obj\Debug\netstandard2.0\Pokedex.pdb
