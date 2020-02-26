@@ -43,6 +43,10 @@
       "frameworks": {
         "netstandard2.0": {
           "dependencies": {
+            "FirebaseStorage.net": {
+              "target": "Package",
+              "version": "[1.0.3, )"
+            },
             "NETStandard.Library": {
               "suppressParent": "All",
               "target": "Package",
@@ -52,6 +56,10 @@
             "Prism.Unity.Forms": {
               "target": "Package",
               "version": "[7.1.0.431, )"
+            },
+            "Xam.Plugin.Media": {
+              "target": "Package",
+              "version": "[4.0.1.5, )"
             },
             "Xamarin.Forms": {
               "target": "Package",

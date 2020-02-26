@@ -112,6 +112,9 @@ class MonoPackageManager_Resources {
 		/* We need to ensure that "Pokedex.Android.dll" comes first in this list. */
 		"Pokedex.Android.dll",
 		"FormsViewGroup.dll",
+		"Plugin.CurrentActivity.dll",
+		"Plugin.Media.dll",
+		"Plugin.Permissions.dll",
 		"Pokedex.dll",
 		"Prism.dll",
 		"Prism.Forms.dll",
@@ -145,5 +148,5 @@ class MonoPackageManager_Resources {
 	};
 	public static final String[] Dependencies = new String[]{
 	};
-	public static final String ApiPackageName = "Mono.Android.Platform.ApiLevel_27";
+	public static final String ApiPackageName = null;
 }

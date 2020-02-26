@@ -1,8 +1,9 @@
-﻿using Pokedex.Service.Interfaces;
+﻿using Plugin.Media.Abstractions;
+using Pokedex.Service.Interfaces;
 using Prism.Commands;
 using Prism.Mvvm;
 using Prism.Navigation;
-
+using System.IO;
 
 namespace Pokedex.ViewModels
 {
